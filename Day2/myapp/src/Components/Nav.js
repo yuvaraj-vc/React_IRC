@@ -5,10 +5,10 @@ const Nav=()=>
            
             <div className="navbar">
             <div className="logo">
-                <img src="https://static.vecteezy.com/system/resources/previews/000/616/286/original/g-letters-logo-and-symbols-template-icons-vector.jpg" alt="Logo"/>
+                <img src="http://vignette3.wikia.nocookie.net/marveldatabase/images/6/62/Contest_of_Champions_Vol_1_%282015%29_logo.png/revision/latest?cb=20151008211430" alt="Logo"/>
             </div>
             <ul>
-                <li ><a href="login.html">Login</a></li>
+                <li ><a href="login.html">Try A Demo</a></li>
                 
             </ul>
         </div>
