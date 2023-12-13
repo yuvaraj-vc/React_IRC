@@ -1,0 +1,51 @@
+.navbar {
+    background-color:black;
+    overflow: hidden;
+    opacity: 0.8;
+    position: absolute;
+    left:0;
+    
+    width: 100vw;
+    top: 0;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+a {
+    display: flex;
+    color: #56ab2f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:  #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 50px; 
+    padding: 10px;
+    border-radius: 90px;
+}
