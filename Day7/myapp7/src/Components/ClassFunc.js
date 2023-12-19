@@ -21,7 +21,7 @@ function ClassFunc() {
     <div className='App'>
       <ToastContainer
         
-        position='top-right'
+        position='top-left'
         autoClose={5000}
         hideProgressBar={false}
         newestOnTop={false}
