@@ -3,9 +3,10 @@
 
 /* Override UGG site */
 body {
-  width: 100%;
-  padding: 0;
+  width: 100vw;
+  padding: 10;
   overflow-x: hidden;
+  
 
   
 }
@@ -20,6 +21,13 @@ body {
 /**************************/
 .margin-top-10 {
   padding-top: 10px;
+ 
+}
+
+.bgcolor
+{
+  background-color: #3d3c3a;
+  width: 100vw;
 }
 .margin-bot-10 {
   padding-bottom: 10px;
@@ -143,7 +151,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1432163230927-a32e4fd5a326?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-image: url(C:\Users\yuvar\Downloads\pexels-pixabay-325944.jpg);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -215,6 +223,7 @@ body {
     width: 100vw;
     height: auto;
     float: left;
+    color: #f2f2f2;
     transition: .5s linear;
     position: relative;
     display: block;

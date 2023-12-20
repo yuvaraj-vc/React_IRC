@@ -10,7 +10,7 @@ function Loging() {
         toast.success("Registered Successfully");
       };
   return (
-    <div>
+    <div className='body'>
         <ToastContainer
         
         position='top-right'

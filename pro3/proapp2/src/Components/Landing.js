@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../Assets/Landing.css'
+// import Footer from './Footer';
 function Landing() {
     return (
+<>
 
         <div id="parallax-world-of-ugg">
 
@@ -44,13 +46,13 @@ function Landing() {
             <section>
                 <div class="parallax-three">
                     <h2>Frank's Farm Community</h2>
-                        <Link to="/login">
                     <button>
+                        <Link to="/login">
                             <span class="box">
                                 Join Now!
                             </span>
-                    </button>
                         </Link>
+                    </button>
                 </div>
             </section>
 
@@ -59,12 +61,18 @@ function Landing() {
                     <p><span class="first-character atw">J</span>oin our thriving community of health-conscious individuals who appreciate the goodness of farm-fresh produce. Follow us on social media for recipes, tips, and updates from Frank's Farm. Share your culinary creations using #FranksFarmFresh for a chance to be featured!
 
                         Make every meal a celebration of flavor and vitality with Frank's Farm. Your journey to a healthier lifestyle begins here.</p>
-                    <p class="line-break margin-top-10"></p>
-                    <p class="margin-top-10">In 2011, UGG will go back to its roots and focus on bringing the active men that brought the brand to life back with new styles allowing them to love the brand again as well. Partnering with Super Bowl champion and NFL MVP Tom Brady, UGG will invite even more men to feel the love the rest of the world knows so well. UGG will also step into the world of high fashion with UGG Collection. The UGG Collection fuses the timeless craft of Italian shoemaking with the reliable magic of sheepskin, bringing the luxurious feel of UGG to high end fashion. As the love for UGG continues to spread across the world, we have continued to offer new and unexpected ways to experience the brand. The UGG journey continues on and the love for UGG continues to spread.</p>
+                    <p class="line-break margin-top-10 "></p>
+                    <p class="margin-top-10 ">In 2011, UGG will go back to its roots and focus on bringing the active men that brought the brand to life back with new styles allowing them to love the brand again as well. Partnering with Super Bowl champion and NFL MVP Tom Brady, UGG will invite even more men to feel the love the rest of the world knows so well. UGG will also step into the world of high fashion with UGG Collection. The UGG Collection fuses the timeless craft of Italian shoemaking with the reliable magic of sheepskin, bringing the luxurious feel of UGG to high end fashion. As the love for UGG continues to spread across the world, we have continued to offer new and unexpected ways to experience the brand. The UGG journey continues on and the love for UGG continues to spread.</p>
                 </div>
             </section>
-
+            
+               
+            
+            
+         
         </div>
+        
+         </>
 
 
     )

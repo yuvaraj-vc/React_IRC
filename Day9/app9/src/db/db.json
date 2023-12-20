@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "username": "Frank",
+      "password": "1234"
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 11
+    }
+  ],
+  "products": [
+    {
+      "pid": 1,
+      "productname": "apple"
+    }
+  ]
+}
