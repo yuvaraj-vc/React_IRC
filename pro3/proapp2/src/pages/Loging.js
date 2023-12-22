@@ -2,6 +2,7 @@ import React from 'react'
 import '../Assets/Login.css'
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Link } from 'react-router-dom';
 function Loging() {
     const displayLoginNotification = () => {
         toast.success("LoggedIn Successfully!");
@@ -31,7 +32,9 @@ function Loging() {
 					<label for="chk" aria-hidden="true">Log in</label>
 					<input class="input" type="email" name="email" placeholder="Email" required/>
 					<input class="input" type="password" name="pswd" placeholder="Password" required/>
-					<button type="button"  onClick={displayLoginNotification}>Log in</button>
+					<Link to='/dash'>
+            <button type="button"  onClick={displayLoginNotification} >Log in</button>
+          </Link>
 				</form>
 			</div>
 
@@ -41,7 +44,10 @@ function Loging() {
 					<input class="input" type="text" name="txt" placeholder="Username" required/>
 					<input class="input" type="email" name="email" placeholder="Email" required/>
 					<input class="input" type="password" name="pswd" placeholder="Password" required/>
+          
+          <Link to='/dash'>
 					<button type="button" onClick={displayRegNotification}>Register</button>
+          </Link>
 				</form>
 			</div>
 	   </div>
