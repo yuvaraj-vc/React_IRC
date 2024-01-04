@@ -1,0 +1,61 @@
+/* App.css */
+
+body {
+  background-color: #1c1c1c; /* Black shade background */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  background-color: #ffffff; /* White shade background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #4CAF50; /* Green border for bottom */
+  background-color: transparent;
+  color: #252222; /* White font color */
+  outline: none;
+  transition: border-bottom-color 0.3s, box-shadow 0.3s;
+}
+
+input:hover {
+  border-bottom-color: #3c8dbc; /* Light blue border on hover */
+}
+
+.error-comp {
+  display: block;
+  padding: 8px;
+  background-color: #ff4d4d; /* Red box background for errors */
+  color: #ffffff; /* White font color */
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.auth-btn {
+  background-color: #4CAF50; /* Green button background color */
+  color: #ffffff; /* White font color */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.auth-btn:hover {
+  transform: scale(1.05); /* Button scale on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+}
